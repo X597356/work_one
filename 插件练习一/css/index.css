@@ -1,0 +1,230 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-header .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid .navbar-header .icon-bar {
+    background-color: #1C9982;
+}
+.collapse .navbar-nav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.jumbotron {
+    background:url(../images/home-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.jumbotron .shou_ye {
+    width: 100%;
+    height: 100%;
+    padding: 90px 0;
+    background: rgba(0,0,0,0.5);
+}
+.jumbotron .container h1{
+    line-height: 1.1;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+    margin: 0px 0 25px;
+}
+.jumbotron .container p {
+    font-weight: 400;
+    line-height: 35px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: white;
+}
+.jumbotron .container img {
+    margin-top: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lun_tan .col-md-4:hover {
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+.lun_tan {
+    padding: 80px 0;
+}
+.lun_tan .col-lg-4{
+    text-align: center;
+    padding: 15px;
+}
+.lun_tan .col-lg-4 a {
+    color: #212121;
+    text-decoration: none;
+}
+.lun_tan .col-lg-4 h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+.lun_tan .col-lg-4 p {
+    margin: 0 0 10px;
+}
+
+.qian_duan {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+.qian_duan .col-lg-6 h2 {
+    font-weight: bold;
+}
+.qian_duan .col-lg-6 img {
+    margin-top: 0;
+}
+.qian_duan .col-lg-6 p{
+    line-height: 25px;
+}
+.mai-icon {
+    background: rgb(64, 210, 177);
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+.bootstrap_s_z {
+    padding: 80px 0;
+}
+.bootstrap_s_z .col-lg-6 h2 {
+    font-weight: bold;
+}
+.bootstrap_s_z .col-lg-6 img {
+    margin-top: 0;
+}
+.bootstrap_s_z .col-lg-6 p{
+    line-height: 25px;
+}
+.mai-icon {
+    background: rgb(64, 210, 177);
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+
+.xin_ke {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.xin_ke h2 {
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.swift {
+    text-align: center;
+    background-color: #ffffff;
+}
+.swift a {
+    color: #212121;
+    text-decoration: none;
+}
+.xin_ke .btn:hover {
+    background: #40D2B1;
+    color: #fff;
+}
+.xin_ke .col-md-3 {
+    margin-bottom: 20px;
+}
+.xin_ke .btn {
+    background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 15px;
+    transition: all 0.3s;
+}
+.yi_dong {
+    padding: 80px 0;
+}
+.yi_dong h2 {
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.yi_dong .btn:hover {
+    background: rgb(44, 142, 120);
+}
+.yi_dong .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+
+.lian_xi{
+    background: url(../images/contact-bg.png) no-repeat;
+    background-size: cover;
+    color: white;
+    padding-right: 0;
+}
+.lian_xi .xiang {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 90px 0;
+}
+.lian_xi .xiang .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.lian_xi h2 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.lian_xi p {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+.lian_xi .form-control{
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.lian_xi .ti_jiao {
+    background: #40d2b1;
+    color: white;
+    font-weight: bold;
+}
+.lian_xi .xiang .liu_yan {
+    height: 80px;
+}
