@@ -1,0 +1,587 @@
+.navbar-default .navbar-toggle{
+    width: 1.8em;
+    height: 1.6em;
+    background-color: #d2de11;
+    border: 0;
+    background: url(../img/nav.png) no-repeat;
+    background-size: cover;
+    outline-style: none;
+    -webkit-tap-highlight-color:transparent;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+.head {
+    box-shadow: rgb(153, 153, 153) 0px 1px 2px;
+}
+.head>.navbar-default {
+    border: 0;
+    background-color: white;
+}
+.navbar-brand>img {
+    width: 88px;
+    height: 19.5px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.head>.container>.container>{
+    height: 100%;
+}
+.head>.container>.container>.container {
+    height: 100%;
+}
+.nav {
+    float: right;
+    margin: 0 auto;
+    width: 70%;
+    border: 0;
+    display: block;
+    /* margin: 0 auto; */
+
+}
+.navbar-nav>li>a {
+    height: 4.2em;
+    padding: 15px 0;
+    line-height: 2.1em;
+}
+.nav .active{
+    background: #CFDB00;
+}
+.navbar-collapse .navbar-nav li {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    min-width: 15%;
+    margin-left: 0.2em;
+}
+.navbar-default{
+    margin-bottom: 0;
+    height: 4.2em;
+}
+.health {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+
+}
+.our {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 25em;
+    min-width: 8em;
+}
+.our i {
+    display: inline-block;
+    /* no-repeat不平铺 */
+    background: url(../img/line_yellow.png) no-repeat;
+    width: 25%;
+    height: 8em;
+    margin: 0 auto;
+    background-position: center;
+    vertical-align: middle;
+    float: left;
+}
+.ours {
+    width: 98%;
+    height: 5em;
+    text-align: center;
+}
+.our span {
+    display: inline-block;
+    width: 50%;
+    height: 5em;
+    font-size: 1.65em;
+    font-weight: bold;
+    max-height: 5em;
+    line-height: 5em;
+    float: left;
+}
+.health>.container>.container {
+    padding: 0;
+}
+.main {
+    padding: 0;
+    margin: 0 auto;
+}
+.main>div{
+    padding: 0;
+}
+.main .tu_p {
+    background-size: cover;
+}
+.tu_p .img-responsive {
+    border-right: 15px solid #cfdb00;
+}
+.tu_p_y{
+    border-left: 15px solid #cfdb00;
+}
+
+.main {
+    border-top: 1px solid rgb(153, 153, 153);
+}
+.mains {
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+.main .title {
+    width: 50%;
+    padding-left: 5%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+.main .titles {
+    width: 50%;
+    padding-left: 0;
+    padding-right: 5%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+.title h6 {
+    font-size: 1.875em;
+    font-weight: bold;
+    font-family: arial;
+    padding-top: 0.5em;
+    word-break: break-all;
+    text-align: center;
+}
+.title p {
+    font-size: 1.175em;
+    line-height: 1.8em;
+    padding-top: 0.5em;
+    word-break: break-all;
+}
+
+.foot {
+    width: 100%;
+}
+.list {
+    padding-bottom: 5.6em;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.list li {
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.8em;
+    font-family: arial;
+    font-weight: lighter;
+}
+.foots {
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    background-color: #b4b4b4;
+    line-height: 4em;
+    border-top: 2px solid #cfdb00;
+    overflow: hidden;
+}
+.foots span {
+    font-size: 1em;
+    color: white;
+}
+
+
+/* about部分 */
+.health .about {
+    text-align: center;
+}
+.health .about .firsts {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 250px;
+    padding-top: 3em;
+}
+.second_er {
+    margin: 0 auto;
+    text-align: left;
+    text-indent: 2em;
+}
+.second_er p {
+    padding-bottom: 2em;
+    line-height: 2em;
+    font-size: 1.3em;
+    word-break: break-all;
+    font-weight: lighter;
+}
+.con_img {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    max-width: 250px;
+    padding-top: 3em;
+    background-size: cover;
+}
+.footas {
+    padding-top: 95px;
+}
+.f_img_bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.img_bg {
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    height: 80%;
+    margin-left: -35%;
+    left: 50%;
+    top: 0;
+    zoom: 1;
+    background-size: cover;
+    overflow: hidden
+}
+.img_bg img{
+    width: 100%;
+}
+.di_zhi {
+    position: absolute;
+    top: 4em;
+    width: 69%;
+    z-index: 2;
+    left: 50%;
+    margin-left: -34.5%;
+    line-height: 2em;
+    text-align: center;
+
+}
+.di_zhi li {
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 2.2em;
+}
+.a_biao a{
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+.a_biao {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+.img_two {
+    width: 10%;
+    position: absolute;
+    left: 46%;
+    top: 46%;
+}
+.img_one {
+    display: block;
+    width: 100%;
+}
+.title_one {
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+.tit {
+    width: 80%;
+    color: #b4b4b4;
+    margin-left: 5%;
+}
+.tit_one {
+    display: block;
+    font-size: 1.2em;
+    margin: 2% 0 1% 0;
+}
+.tit_two {
+    font-size: 1.2em;
+    line-height: 1em;
+}
+.heth {
+    width: 100%;
+    background-color: white;
+}
+.nei_r {
+    padding-bottom: 2em;
+    margin: 0 auto;
+}
+.nei_r li {
+    list-style: none;
+    width: 100%;
+    padding: 3% 0 1%;
+    border-bottom: 1px solid #bfbfbf;
+    margin: 5% 0;
+    overflow: hidden;
+}
+.nei_left a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+.nei_left {
+    float: right;
+}
+.nei_img_two {
+    width: 10%;
+    position: absolute;
+    left: 46%;
+    top: 46%;
+}
+.nei_right {
+    width: 43%;
+    color: #b4b4b4;
+}
+.nei_right dl {
+    width: 75%;
+    padding: 7% 0;
+    margin: 0 auto;
+}
+.nei_right dt,.nei_left dt{
+    font-size: 1.4em;
+    padding: 7% 0;
+}
+.nei_left dt{
+    text-align: left;
+}
+.nei_right dt {
+    text-align: right;
+}
+.nei_right dd,.nei_left dd {
+    font-size: 1.2em;
+    text-align: left;
+    word-break: break-all;
+    font-weight: lighter;
+}
+
+.tit_img {
+    display: inline-block;
+    width: 53%;
+    position: relative;
+    text-align: center;
+    border: 7px solid white;
+}
+.tit_imgs {
+    width: 43%;
+    color: #b4b4b4;
+}
+
+.fan_hui {
+    width: 5%;
+    position: absolute;
+    bottom: 0;
+    left: 46.5%;
+}
+.foot_3D {
+    background-color: #f5f5f5;
+}
+
+
+.rend {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 48em;
+    min-width: 8em;
+}
+.rend i {
+    display: inline-block;
+    /* no-repeat不平铺 */
+    background: url(../img/line_yellow.png) no-repeat;
+    width: 25%;
+    height: 8em;
+    margin: 0 auto;
+    background-position: center;
+    vertical-align: middle;
+    float: left;
+}
+.rends {
+    width: 98%;
+    height: 5em;
+    text-align: center;
+}
+.rend span {
+    display: inline-block;
+    width: 50%;
+    height: 5em;
+    font-size: 1.65em;
+    font-weight: bold;
+    max-height: 5em;
+    line-height: 5em;
+    float: left;
+}
+#content {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #e5e5e5;
+    margin-top: 1em;
+}
+#content .swiper-container {
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.swiper-slide{
+    float: left;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-pagination {
+    position: absolute;
+    z-index: 20;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.swiper-pagination-switch{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: #b4b4b4;
+    margin: 0 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.bim_one, .bim_two, .bim_san, .bim_si, .bim_wu {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.o_wrap_o,.t_wrap_t,.s_wrap_s,.si_wrap_si,.wu_wrap_wu {
+    position: relative;
+}
+.bim_one>img, .bim_two>img, .bim_san>img, .bim_si>img, .bim_wu>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.one_wrap {
+    position: relative;
+    max-width: 980px;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 50;
+}
+.o_wrap_o {
+    z-index: 100;
+    padding-top: 200px;
+    padding-bottom: 4em;
+}
+.half-t {
+    width: 55%;
+    position: absolute;
+    right: -15%;
+    bottom: 0;
+}
+.one_wrap h3 {
+    color: #616161;
+    display: inline-block;
+    background: #cfdb00;
+    line-height: 150%;
+    font-size: 1.4em;
+    padding: 0 8% 0 2%;
+    margin-left: 1%;
+}
+.one_wrap span {
+    display: block;
+    width: 60%;
+    line-height: 2em;
+    margin: 4em 0;
+    z-index: 100;
+    word-break: break-word;
+}
+.o_wrap_o div {
+    width: 60%;
+    overflow: hidden;
+    margin-left: 2%;
+    padding-top: 5.5em;
+}
+.o_wrap_o div img {
+    width: 33%;
+    float: left;
+}
+.half-b {
+    width: 55%;
+    position: absolute;
+    right: -7.9%;
+    top: 0;
+}
+.t_wrap_t {
+    padding: 15em 0;
+    z-index: 100;
+}
+.t_wrap_t div {
+    width: 50%;
+    overflow: hidden;
+    margin-left: 2%;
+}
+.t_wrap_t div img {
+    width: 47%;
+    margin: 15px 2% 0 0;
+}
+.s_wrap_s {
+    z-index: 100;
+    padding-bottom: 245px;
+    padding-top: 20.625em;
+    padding-bottom: 15.35em;
+    padding-left: 19.5625em;
+}
+.half-s {
+    width: 55%;
+    position: absolute;
+    left: -15%;
+    bottom: 0;
+}
+.s_wrap_s span {
+    width: 80%;
+}
+.s_wrap_s div img {
+    width: 45%;
+    margin: 0 2%;
+}
+.building3-half-t {
+    width: 55%;
+    position: absolute;
+    right: -15%;
+    bottom: 0;
+}
+.building2-half-b {
+    width: 55%;
+    position: absolute;
+    left: -7.9%;
+    top: 0;
+}
+.si_wrap_si {
+    padding: 13.4375em 0 6.125em 15.3125em;
+    z-index: 100;
+}
+.si_wrap_si span {
+    width: 70%;
+}
+.si_wrap_si div {
+    width: 40%;
+}
+.si_wrap_si div img {
+    width: 100%;
+    margin: 0.8em 0;
+}
+.building3-half-b {
+    width: 55%;
+    position: absolute;
+    right: -7.15%;
+    top: 0;
+}
+.wu_wrap_wu {
+    padding: 24.5em 0 18.375em;
+    z-index: 100;
+}

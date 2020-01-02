@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- navbar——设置nav元素为导航条组件 -->
+        <!-- navbar-default——设置导航条为默认主题 -->
+        <div class="head">
+            <nav class="navbar container navbar-default">
+
+                <!-- container-fluid——设置宽度充满父元素，即为100% -->
+                <div class="container">
+    
+                    <!-- navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮 -->
+                    <div class="navbar-header">
+    
+                        <!-- navbar-toggle——设置button元素为导航条组件的切换钮 -->
+                        <!-- aria-expanded:表示展开状态。默认为undefined, 表示当前展开状态未知。
+                        其它可选值：true表示元素是展开的；false表示元素不是展开的。 -->
+                        <!-- collapsed——设置button元素为在视口小于768px时才显示 -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#zhe_die" aria-expanded="false">
+                        </button>
+                        <!-- navbar-brand——设置导航条组件内的品牌图标； -->
+                        <a class="navbar-brand" href="#"><img class="img-responsive" src="./img/shininglogo - 副本.png" alt=""></a>
+                    </div>
+    
+                    <!-- collapse 类用于指定一个折叠元素 (实例中的 <div>); 点击按钮后会在隐藏与显示之间切换。 -->
+                    <!-- 控制内容的隐藏与显示，需要在 <a> 或 <button> 元素上添加 data-toggle="collapse" 属性。
+                    data-target="#id" 属性是对应折叠的内容 (<div id="demo">) -->
+                    <div class="collapse navbar-collapse" id="zhe_die">
+    
+                        <!-- navbar-nav——设置ul为导航条组件内的列表元素; -->
+                        <ul class="nav row navbar-nav">
+                            <li class="active"><a href="index.html">Home<span class="sr-only"></span></a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Renderings.html">Renderings</a></li>
+                            <li><a href="BIM.html">BIM</a></li>
+                            <li><a href="3D Animat.html">3D Animat</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="health">
+            <div class="container">
+                <div class="our">
+                    <div class="ours">
+                        <i class="img-responsive"></i>
+                        <span>OUR SERVICE</span>
+                        <i class="img-responsive"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container first">
+                <div class="container main row">
+                    <div class="tu_p col-md-6 col-sm-7 col-xs-7" ><img class="img-responsive" src="./img/en_a2.jpg" alt=""></div>
+                    <div class="title col-md-6 col-sm-5 col-xs-5">
+                        <h6>Digital Effect Drawing</h6>
+                        <p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comnit reris
+                            aut modic tecuptat omni ad explanditam verupis nia sequist la et liquo omnia
+                        </p>
+                    </div>
+                </div>
+                <div class="container main row">
+                    <div class="title titles col-md-6 col-sm-5 col-xs-5">
+                        <h6>Digital Effect Drawing</h6>
+                        <p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comnit reris
+                            aut modic tecuptat omni ad explanditam verupis nia sequist la et liquo omnia
+                        </p>
+                    </div>
+                    <div class="tu_p_y col-md-6 col-sm-7 col-xs-7" ><img class="img-responsive" src="./img/en_a2.jpg" alt=""></div>
+                </div>
+                <div class="container main mains row">
+                    <div class="tu_p col-md-6 col-sm-7 col-xs-7" ><img class="img-responsive" src="./img/en_a2.jpg" alt=""></div>
+                    <div class="title col-md-6 col-sm-5 col-xs-5">
+                        <h6>Digital Effect Drawing</h6>
+                        <p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comnit reris
+                            aut modic tecuptat omni ad explanditam verupis nia sequist la et liquo omnia
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="foot">
+            <div class="container">
+                <div class="our">
+                    <div class="ours">
+                        <i class="img-responsive"></i>
+                        <span>CONTACT US</span>
+                        <i class="img-responsive"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <ul class="list">
+                    <li>Email：eric@shining365.com</li>
+                    <li>Mobile Phone：86 138 1690 3400</li>
+                    <li><span>Tel：+86 21 6598 6866-304</span><span>+86 21 6598 3188-304</span></li>
+                </ul>
+            </div>
+            <div class="foots">
+                <span>
+                    Copyright © 1998-2015 shining Group
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/jquery.singlePageNav.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
+    // $(".shu_g").css({
+    //     "height":$(".tu_p").height()
+    // })
+</script>
+</html>
